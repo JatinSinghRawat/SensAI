@@ -9,7 +9,7 @@ const bricolage = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Converso",
+  title: "SenSai",
   description: "Real-time AI Teaching Platform",
 };
 
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${bricolage.variable} antialiased`}>
+      <body className={`${bricolage.variable} min-h-screen flex flex-col antialiased`}>
         <Navbar></Navbar>
         {children}
         </body>
