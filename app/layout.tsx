@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${bricolage.variable} min-h-screen flex flex-col antialiased`}>
+      <body className={`${bricolage.variable} h-screen flex flex-col antialiased`}>
     <ClerkProvider appearance={{variables:{colorPrimary:'#fe5933'}}}>
       <Navbar></Navbar>
       {children}
