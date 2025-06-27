@@ -120,7 +120,7 @@ const CompanionComponent = ({ companionId, subject, topic, name, userName, userI
                 </div>
                 <div className="user-section">
                     <div className="user-avatar">
-                        <Image src={userImage} alt={userName} width={130} height={130} className="rounded-lg" />
+                        <Image src={userImage} alt="user-profile" width={130} height={130} className="rounded-lg" />
                         <p className="font-bold text-2xl">
                             {userName}
                         </p>
