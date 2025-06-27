@@ -119,16 +119,10 @@ export const newCompanionPermissions = async () => {
     if(has({ plan: 'pro' })) {
         return true;
     } else if(has({ feature: "3_companion_limit" })) {
-        console.log("I am in 3_companion_limit");
         limit = 3;
     } else if(has({ feature: "10_companion_limit" })) {
-        console.log("I am in 10_companion_limit");
         limit = 10;
     }
-    else {
-    console.log("❌ User has no companion limit feature");
-}
-console.log("User features:", has.toString?.());
 
 
     const { data, error } = await supabase
